@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta https="Content-Security-Policy" content="default-src 'self'" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" type="text/css" href="/Css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
@@ -79,23 +78,26 @@
               </button>
             </div>
         </div>
-        <form action="get">
+        <div id="area">
+          <form action="get" id="formulario" class="back-img">
             <label for="fname">Nome do produto</label>
-            <input type="text" id="fname" name="fname" /> <br />
+            <input class="campo-nome" type="text" id="fname" name="fname" /> <br />
             <label for="preco"> Preço </label>
-            <input type="number" id="preco" name="preco" /> <br />
+            <input class="campo-number" type="number" id="preco" name="preco" /> <br />
             <label for="desc">Descrição</label>
-            <input type="text" id="desc" name="desc" /> <br />
+            <input type="text" id="desc" name="desc" /><br/>
             <label for="cat">Categoria</label>
             <input type="text" id="cat" name="cat" /> <br />
             <input type="submit" value="Confirmar" />
-        </form>
-        </main>
-        <footer>
+          </form>
+        </div>
+        
+      </main>
+      <footer>
         <p>
             Shafiq Store Shafiq Store Shafiq Store Shafiq Store Shafiq Store Shafiq
             Store Shafiq Store Shafiq Store Shafiq Store Shafiq Store
         </p>
-        </footer>
+      </footer>
     </body>
 </html>

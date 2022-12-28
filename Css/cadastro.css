@@ -154,7 +154,7 @@ a{
     background-color: #eeeeee75;
 }
 
-.input-box inpu:focus-visible{
+.input-box input:focus-visible{
     outline: 1px solid #fde3a7;
 }
 
